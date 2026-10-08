@@ -1,32 +1,20 @@
-\# Bike Sharing Data Analysis Dashboard
-Proyek analisis data interaktif menggunakan Bike Sharing Dataset untuk memenuhi tugas submission Dicoding.
+# Bike Sharing Data Analysis Dashboard 🚲
 
+Proyek analisis data interaktif menggunakan **Bike Sharing Dataset** untuk memenuhi kriteria submission akhir Dicoding.
 
-\## Struktur Direktori
+---
 
-\- `dashboard/`: Berisi kode aplikasi Streamlit (`dashboard.py`) dan dataset yang sudah dibersihkan (`main\_data.csv`).
+## 📁 Struktur Direktori
 
-\- `data/`: Berisi dataset mentah (`day.csv` dan `hour.csv`).
-
-\- `notebook.ipynb`: Berkas Jupyter Notebook proses analisis data lengkap dari Data Wrangling, EDA, hingga Analisis Lanjutan.
-
-\- `requirements.txt`: Daftar library Python yang dibutuhkan.
-
-\- `url.txt`: Tautan live dashboard yang sudah dideploy ke Streamlit Community Cloud.
-
-
-\## Cara Menjalankan Dashboard di Komputer Lokal
-1\. Clone repositori ini atau download sebagai ZIP lalu ekstrak.
-
-2\. Buka terminal / command prompt, arahkan ke folder proyek.
-
-3\. Buat dan aktifkan virtual environment (opsional namun disarankan):
-
-&#x20;  ```bash
-
-&#x20;  python -m venv venv
-
-&#x20;  source venv/bin/activate  # Untuk Linux/Mac
-
-&#x20;  venv\\Scripts\\activate     # Untuk Windows
-
+```text
+submission/
+├── dashboard/
+│   ├── dashboard.py        # Kode aplikasi Streamlit
+│   └── main_data.csv       # Dataset yang sudah dibersihkan
+├── data/
+│   ├── day.csv             # Dataset mentah harian
+│   └── hour.csv            # Dataset mentah per jam
+├── notebook.ipynb          # Jupyter Notebook analisis data lengkap
+├── README.md               # Dokumentasi proyek
+├── requirements.txt        # Daftar library dependensi Python
+└── url.txt                 # Tautan live dashboard Streamlit Cloud
